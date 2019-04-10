@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders LocationItem correctly 1`] = `
+<div
+  class="location"
+  data-testid="location-item"
+>
+  <div
+    class="location__from"
+  >
+    Berlin
+  </div>
+  <div
+    class="location__distance"
+  >
+    76.71 mi
+  </div>
+  <div
+    class="location__to"
+  >
+    Hamburg
+  </div>
+</div>
+`;

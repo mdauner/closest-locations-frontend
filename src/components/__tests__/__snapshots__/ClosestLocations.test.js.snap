@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders ClosestLocations correctly 1`] = `
+<div
+  class="closest-locations"
+>
+  <h3>
+    Closest Location Calculator
+  </h3>
+  <textarea
+    class="closest-locations__textarea"
+    placeholder="Please enter locations, separated by linebreaks."
+  />
+  <button
+    class="closest-locations__fetch-button"
+    disabled=""
+    type="button"
+  >
+    Get Closest Locations
+  </button>
+  
+  <div
+    class="closest-locations__locations"
+  />
+</div>
+`;
