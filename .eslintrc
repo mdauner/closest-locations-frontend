@@ -1,0 +1,12 @@
+{
+    "extends": [
+        "airbnb-base",
+        "plugin:react/recommended",
+        "plugin:prettier/recommended",
+        "plugin:jest/recommended"
+    ],
+    "globals": {
+        "fetch": false,
+        "document": false
+    }
+}
