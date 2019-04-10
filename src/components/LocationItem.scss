@@ -1,0 +1,21 @@
+.location {
+  width: 100%;
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: .3rem;
+  display: flex;
+  box-sizing: border-box;
+
+  &:not(:first-of-type) {
+    margin-top: .3rem;
+  }
+
+  &__from,
+  &__to {
+    flex: 1;
+  }
+
+  &__to {
+    text-align: right;
+  }
+}
